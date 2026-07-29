@@ -1,0 +1,9 @@
+node_modules
+node_modules_incomplete
+dist
+.next
+.vinext
+.wrangler
+output
+work
+supportflow-ai-site.tar.gz
