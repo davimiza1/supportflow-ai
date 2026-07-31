@@ -30,6 +30,18 @@ An AI-powered customer support command center for intelligent ticket triage, gro
 
 This repository contains the polished interactive product prototype. Ticket data and AI analysis are currently simulated in the interface. The next phase will connect persistent ticket storage, live AI generation, a searchable knowledge base, and external support-channel automations.
 
+## Full-stack upgrade in progress
+
+The persistence foundation is now included:
+
+- Supabase browser client with session persistence
+- PostgreSQL tables for tickets, messages, and knowledge articles
+- Per-user Row Level Security policies
+- Indexed ticket and conversation queries
+- Optional server-side AI key configuration with a free local fallback planned
+
+Copy `.env.example` to `.env.local`, add the Supabase project URL and publishable key, then run [`supabase/migrations/202607310001_support_workspace.sql`](supabase/migrations/202607310001_support_workspace.sql) in the Supabase SQL editor.
+
 ## Run locally
 
 ```bash
