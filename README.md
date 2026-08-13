@@ -1,5 +1,8 @@
 # SupportFlow AI
 
+[![CI](https://github.com/davimiza1/supportflow-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/davimiza1/supportflow-ai/actions/workflows/ci.yml)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs)](https://nextjs.org/)
+
 An AI-powered customer support command center for intelligent ticket triage, grounded reply drafting, automation, and customer context.
 
 **Live application:** https://supportflow-ai-psi.vercel.app
